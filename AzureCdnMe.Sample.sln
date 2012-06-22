@@ -46,12 +46,10 @@ Global
 		{A1B790C1-EBAB-41DC-9E9B-247F1FD52F30}.Release|x86.ActiveCfg = Release|Any CPU
 		{BBA8863A-F2E9-43B5-858F-55B3D6DE0E16}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{BBA8863A-F2E9-43B5-858F-55B3D6DE0E16}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{BBA8863A-F2E9-43B5-858F-55B3D6DE0E16}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{BBA8863A-F2E9-43B5-858F-55B3D6DE0E16}.Debug|x86.ActiveCfg = Debug|x86
 		{BBA8863A-F2E9-43B5-858F-55B3D6DE0E16}.Debug|x86.Build.0 = Debug|x86
 		{BBA8863A-F2E9-43B5-858F-55B3D6DE0E16}.Release|Any CPU.ActiveCfg = Release|x86
 		{BBA8863A-F2E9-43B5-858F-55B3D6DE0E16}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{BBA8863A-F2E9-43B5-858F-55B3D6DE0E16}.Release|Mixed Platforms.Build.0 = Release|x86
 		{BBA8863A-F2E9-43B5-858F-55B3D6DE0E16}.Release|x86.ActiveCfg = Release|x86
 		{BBA8863A-F2E9-43B5-858F-55B3D6DE0E16}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
