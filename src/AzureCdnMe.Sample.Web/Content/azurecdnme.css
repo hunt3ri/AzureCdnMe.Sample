@@ -1,0 +1,16 @@
+﻿/* File Created: June 22, 2012 */
+
+.show-grid [class*="span"]
+{
+	background-color: #EEEEEE;
+	border-radius: 3px 3px 3px 3px;
+	line-height: 30px;
+	min-height: 30px;
+	text-align: center;
+}
+
+.show-grid
+{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
