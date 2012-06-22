@@ -9,3 +9,4 @@ packages/*
 *.DS_Store
 *.user
 *.Publish.xml
+src/*/csx/*

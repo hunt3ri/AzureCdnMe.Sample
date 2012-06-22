@@ -13,8 +13,15 @@ namespace AzureCdnMe.Sample.Web.Controllers
 
         public ActionResult Index()
         {
+        	ViewBag.Title = "Home";
             return View();
         }
+
+		public ActionResult About()
+		{
+			ViewBag.Title = "About";
+			return View();
+		}
 
     }
 }
