@@ -5,7 +5,7 @@
 	background-color: #EEEEEE;
 	border-radius: 3px 3px 3px 3px;
 	line-height: 30px;
-	min-height: 30px;
+	min-height: 200px;
 	text-align: center;
 }
 
@@ -13,4 +13,10 @@
 {
 	margin-bottom: 20px;
 	margin-top: 10px;
+}
+
+.lolcat1
+{
+	background-image: url("./images/lolcat1.jpg");
+	background-size : 100% 100%;
 }
