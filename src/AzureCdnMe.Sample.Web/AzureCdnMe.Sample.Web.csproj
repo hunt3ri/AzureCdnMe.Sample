@@ -36,8 +36,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EcmaScript.NET">
+      <HintPath>..\..\packages\YUICompressor.NET.2.0.0.0\lib\NET20\EcmaScript.NET.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\..\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\packages\YUICompressor.NET.2.0.0.0\lib\NET20\Iesi.Collections.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <Private>True</Private>
@@ -80,6 +86,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Yahoo.Yui.Compressor">
+      <HintPath>..\..\packages\YUICompressor.NET.2.0.0.0\lib\NET20\Yahoo.Yui.Compressor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -89,70 +98,70 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\azurecdnme.css" />
-    <Content Include="Content\bootstrap-responsive.css" />
-    <Content Include="Content\bootstrap-responsive.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\images\glyphicons-halflings-white.png" />
-    <Content Include="Content\images\glyphicons-halflings.png" />
-    <Content Include="Content\images\lolcat1.jpg" />
-    <Content Include="Content\images\lolcat2.jpg" />
-    <Content Include="Content\images\lolcat3.png" />
-    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
-    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
-    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
-    <Content Include="Content\themes\base\jquery-ui.css" />
-    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
-    <Content Include="Content\themes\base\jquery.ui.all.css" />
-    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
-    <Content Include="Content\themes\base\jquery.ui.base.css" />
-    <Content Include="Content\themes\base\jquery.ui.button.css" />
-    <Content Include="Content\themes\base\jquery.ui.core.css" />
-    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
-    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
-    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
-    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
-    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
-    <Content Include="Content\themes\base\jquery.ui.slider.css" />
-    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
-    <Content Include="Content\themes\base\jquery.ui.theme.css" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
-    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="CDN\Content\azurecdnme.css" />
+    <Content Include="CDN\Content\bootstrap-responsive.css" />
+    <Content Include="CDN\Content\bootstrap-responsive.min.css" />
+    <Content Include="CDN\Content\bootstrap.css" />
+    <Content Include="CDN\Content\bootstrap.min.css" />
+    <Content Include="CDN\Content\images\glyphicons-halflings-white.png" />
+    <Content Include="CDN\Content\images\glyphicons-halflings.png" />
+    <Content Include="CDN\Content\images\lolcat1.jpg" />
+    <Content Include="CDN\Content\images\lolcat2.jpg" />
+    <Content Include="CDN\Content\images\lolcat3.png" />
+    <Content Include="CDN\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="CDN\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="CDN\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="CDN\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="CDN\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="CDN\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="CDN\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="CDN\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="CDN\Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="CDN\Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="CDN\Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="CDN\Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="CDN\Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="CDN\Content\themes\base\jquery-ui.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.all.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.base.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.button.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.core.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="CDN\Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="CDN\Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="CDN\Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="CDN\Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="CDN\Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="CDN\Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="CDN\Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="CDN\Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="CDN\Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="CDN\Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="CDN\Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="CDN\Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="CDN\Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="CDN\Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="CDN\Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="CDN\Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="CDN\Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="CDN\Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="CDN\Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="CDN\Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="CDN\Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="CDN\Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="CDN\Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="CDN\Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="CDN\Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="CDN\Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="CDN\Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -192,6 +201,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\About.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AzureCdnMe.Sample.Code\AzureCdnMe.Sample.Code.csproj">
+      <Project>{7BC6AFB2-7608-45A0-9F55-1E9835C7908A}</Project>
+      <Name>AzureCdnMe.Sample.Code</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
