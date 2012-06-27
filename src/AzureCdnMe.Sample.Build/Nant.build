@@ -11,11 +11,11 @@
 	<include buildfile="GlobalBuildSettings.xml" />
 
 	<!--The name of your solution, please overwrite the default -->
-	<property name="solution.name" value="Nant.Builder.Sample"/>
+	<property name="solution.name" value="AzureCdnMe.Sample"/>
 
 	<!-- Comma seperated list of projects contained in your solution, DO NOT include Azure or Build projects, these should be projects 
 	     containing Assembly.Info files, so they get appropriately versioned.-->
-	<property name="solution.projects" value="Nant.Builder.Sample.Services,Nant.Builder.Sample.Tests,Nant.Builder.Sample.Web" />
+	<property name="solution.projects" value="AzureCdnMe.Sample.Code,AzureCdnMe.Sample.Web" />
 
 	<!-- Set the configuration for compilation, typically release, but may be custom -->
 	<property name="release.configuration" value="Release" />
@@ -67,7 +67,10 @@
 		<call target="CompileSolution" /> 
 		
 		<call target="RunNunitTests" if="${run.nunit.tests}" />
-		
+
+		<call target="CompressIt" />
+
+
 		<call target="CreateAzurePackage" if="${create.azure.package}" />
 
 		<!--We can only deploy package if we've packaged it in the first place-->
