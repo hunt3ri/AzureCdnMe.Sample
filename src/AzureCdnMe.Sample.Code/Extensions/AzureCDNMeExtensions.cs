@@ -100,7 +100,11 @@ namespace AzureCdnMe.Sample.Code.Extensions
 
 		public static bool IsInDebugMode(this HtmlHelper helper)
 		{
-			return false;
+#if DEBUG
+            return true;
+#else
+            return false;
+#endif
 		}
 	}
 }

@@ -123,7 +123,7 @@
 		<echo message="Compressing files"/>
 		<cssCompressor
             deleteSourceFiles="false"
-            outputFile="Minified.css"
+            outputFile="../AzureCdnMe.Sample.Web/cdn/content/minified.css"
             compressionType="Standard"
             loggingType="Info"
             preserveComments="false"
@@ -132,6 +132,8 @@
        >
 			<sourceFiles>
 				<include name="..\AzureCdnMe.Sample.Web\cdn\content\azurecdnme.css" />
+				<include name="..\AzureCdnMe.Sample.Web\cdn\content\bootstrap.css" />
+				<include name="..\AzureCdnMe.Sample.Web\cdn\content\bootstrap-responsive.css" />
 			</sourceFiles>
 		</cssCompressor>
 	</target>
