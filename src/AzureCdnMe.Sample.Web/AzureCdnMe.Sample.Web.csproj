@@ -36,8 +36,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AzureCdn.Me.Code, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\AzureCdn.Me.1.0.0.0\lib\net40\AzureCdn.Me.Code.dll</HintPath>
+    <Reference Include="AzureCdn.Me.Code, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\AzureCdn.Me.1.0.0.1\lib\net40\AzureCdn.Me.Code.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\..\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll</HintPath>
@@ -92,7 +93,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CDN\ReadMe.txt" />
     <Content Include="CDN\Content\azurecdnme.css" />
     <Content Include="CDN\Content\bootstrap-responsive.css" />
     <Content Include="CDN\Content\bootstrap-responsive.min.css" />
@@ -157,6 +157,7 @@
     <Content Include="CDN\Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="CDN\Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="CDN\Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="CDN\ReadMe.txt" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
