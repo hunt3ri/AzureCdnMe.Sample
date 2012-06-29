@@ -119,6 +119,26 @@
 	</target>
 
 
+	<loadtasks assembly=".\lib\Yahoo.Yui.Compressor.Build.Nant.dll" verbose="true" />
+	<target name="CompressCss">
+		<echo message="Compressing files"/>
+		<cssCompressor
+			deleteSourceFiles="false"
+			outputFile="${buildspace.src.dir}/AzureCdnMe.Sample.Web/cdn/content/minified.css"
+			compressionType="Standard"
+			loggingType="Info"
+			preserveComments="false"
+			lineBreakPosition="-1"
+			cdnQueryString="1.01"
+	   >
+			<sourceFiles>
+				<include name="..\AzureCdnMe.Sample.Web\cdn\content\azurecdnme.css" />
+				<include name="..\AzureCdnMe.Sample.Web\cdn\content\bootstrap.css" />
+				<include name="..\AzureCdnMe.Sample.Web\cdn\content\bootstrap-responsive.css" />
+			</sourceFiles>
+		</cssCompressor>
+	</target>
+
 	<target name="CreateAzurePackage" description="Creates package for uploading to Azure">
 		<property name="package.dir" value ="${buildspace.src.dir}/${azure.role.project.name}/obj/${release.configuration}/Package/PackageTmp/"/>
 
