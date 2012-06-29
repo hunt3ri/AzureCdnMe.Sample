@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>@ViewBag.Title</title>
-	@if (Html.IsInDebugMode)
+	@if (Html.IsInDebugMode())
 	{ 
 		<link href="@Url.AzureCdnContent("~/Content/bootstrap.css")" rel="stylesheet" type="text/css" />
 		<link href="@Url.AzureCdnContent("~/Content/bootstrap-responsive.css")" rel="stylesheet" type="text/css" />
